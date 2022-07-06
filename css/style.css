@@ -65,7 +65,7 @@ body {
 }
 #profile-greeting {
     display: flex;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 #profile-icon {
     width: 90px;
@@ -109,4 +109,22 @@ button {
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+#profile {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 10px;
+}
+#bell {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+#naruto-prf {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 100%;    
 }
