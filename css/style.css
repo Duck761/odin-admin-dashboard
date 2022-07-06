@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: row;
 }
+/* Sidebar */
 #sidebar {
     width: 450px;
     background-color: skyblue;
@@ -29,8 +30,33 @@ body {
     color: white;
     font-weight: bold;
 }
+
+/* Header */
 #header {
     background-color: #fff;
     height: 158px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fitted-wrapper {
+    width: 95%;
+    height: 90%;
+
+}
+#search {
+    display: flex;
+    align-items: center;
+}
+#search-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+#search-bar {
+    width: 70%;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
 }
