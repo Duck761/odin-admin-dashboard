@@ -91,3 +91,22 @@ body {
     margin-right: 15px;
     margin-top: -7px;
 }
+#actions {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    width: 74.5%;
+    justify-content: flex-end;
+}
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: lightskyblue;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
