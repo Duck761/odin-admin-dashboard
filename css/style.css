@@ -43,7 +43,8 @@ body {
 #fitted-wrapper {
     width: 95%;
     height: 90%;
-
+    display: flex;
+    flex-direction: column;
 }
 #search {
     display: flex;
@@ -59,4 +60,31 @@ body {
     border-radius: 50px;
     border: 1px solid #ccc;
     padding: 0 10px;
+}
+#profile-greeting {
+    display: flex;
+    margin-top: 10px;
+}
+#profile-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+#greeting {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+#name {
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    margin: auto;
+    margin-right: 15px;
+    margin-top: -7px;
 }
