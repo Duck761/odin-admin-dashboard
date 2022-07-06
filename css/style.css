@@ -30,8 +30,10 @@ body {
     color: white;
     font-weight: bold;
 }
+.section-text:hover {
+    text-shadow: 0px 0px 5px #fff;
+}
 
-/* Header */
 #header {
     background-color: #fff;
     height: 158px;
@@ -69,6 +71,7 @@ body {
     width: 90px;
     height: 90px;
     border-radius: 100%;
+    box-shadow: 0px 0px 15px #000;
 }
 #greeting {
     margin-left: 10px;
