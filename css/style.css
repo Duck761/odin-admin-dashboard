@@ -13,7 +13,10 @@
 #title-image {
     width: 60px;
 }
-
+.section {
+    display: flex;
+    align-items: center;
+}
 .sidebar-icon {
     width: 30px;
     height: 30px;
