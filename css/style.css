@@ -1,7 +1,12 @@
+body {
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+}
 #sidebar {
-    width: 360px;
+    width: 450px;
     background-color: skyblue;
-    height: 100vh;
+    height: 917px;
     padding: 10px;
 }
 #sidebar-title {
@@ -12,6 +17,7 @@
 .section {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .sidebar-icon {
     width: 30px;
@@ -22,4 +28,9 @@
     font-size: 20px;
     color: white;
     font-weight: bold;
+}
+#header {
+    background-color: #fff;
+    height: 158px;
+    width: 100%;
 }
