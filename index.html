@@ -1,67 +1,87 @@
 <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <title>Narutos Mission Board</title>
-            <link rel="stylesheet" href="css/reset.css">
-            <link rel="stylesheet" href="css/style.css">
-            <link rel="shortcut icon" href="images/dashboard.png">
-            <script defer src="javascript/script.js"></script>
-        </head>
-        <body> 
-            <div id="sidebar">
-                <h1 id="sidebar-title">Dashboard</h1>
-                <div id="sections">
-                    <div id="home" class="section">
-                        <img src="images/home.png" alt="" class="sidebar-icon">
-                        <p class="section-text" style="text-shadow: 0px 0px 5px #fff;">Home</p>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Narutos Dashboard</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="images/dashboard.png">
+        <script defer src="javascript/script.js"></script>
+    </head>
+    <body> 
+        <div id="sidebar">
+            <h1 id="sidebar-title">Dashboard</h1>
+            <div id="sections">
+                <div id="home" class="section">
+                    <img src="images/home.png" alt="" class="sidebar-icon">
+                    <p class="section-text" style="text-shadow: 0px 0px 5px #fff;">Home</p>
+                </div>
+                <div id="profiles" class="section">
+                    <img src="images/profile.png" alt="" class="sidebar-icon">
+                    <p class="section-text">Profiles</p>
+                </div>
+                <div id="messages" class="section">
+                    <img src="images/message.png" alt="" class="sidebar-icon">
+                    <p class="section-text">Messages</p>
+                </div>
+                <div id="history" class="section">
+                    <img src="images/history.png" alt="" class="sidebar-icon">
+                    <p class="section-text">History</p>
+                </div>
+                <div id="communities" class="section">
+                    <img src="images/communities.png" alt="" class="sidebar-icon">
+                    <p class="section-text">Communities</p>
+                </div>
+            </div>
+        </div>
+        <div id="header">
+            <div id="fitted-header-and-content-wrapper">
+                <div id="top-half">
+                    <img src="images/search.png" alt="" id="search-icon">
+                    <input type="text" placeholder="Search" id="search-bar">
+                    <div id="profile">
+                        <img src="images/bell.png" alt="" id="bell">
+                        <img src="images/naruto.jpg" alt="" id="naruto-prf">
+                        <div style="font-weight: bold; font-size:x-large;">Naruto</div>
                     </div>
-                    <div id="profiles" class="section">
-                        <img src="images/profile.png" alt="" class="sidebar-icon">
-                        <p class="section-text">Profiles</p>
+                </div>
+                <div id="bottom-half">
+                    <img src="images/naruto.jpg" id="profile-icon">
+                    <div id="greeting">
+                        <p class="text">Hi there,</p>
+                        <p id="name">Naruto Uzumaki</p>
                     </div>
-                    <div id="messages" class="section">
-                        <img src="images/message.png" alt="" class="sidebar-icon">
-                        <p class="section-text">Messages</p>
+                    <div id="actions">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
                     </div>
-                    <div id="history" class="section">
-                        <img src="images/history.png" alt="" class="sidebar-icon">
-                        <p class="section-text">History</p>
-                    </div>
-                    <div id="tasks" class="section">
-                        <img src="images/tasks.png" alt="" class="sidebar-icon">
-                        <p class="section-text">Tasks</p>
-                    </div>
-                    <div id="communities" class="section">
-                        <img src="images/communities.png" alt="" class="sidebar-icon">
-                        <p class="section-text">Communities</p>
+                </div>
+                <div id="projects">
+                    <h1 style="color: white;">Your Missions</h1>
+                    <div id="project-grid">
+                        <div id="item1" class="item">
+                            <div class="side-piece-mission"></div>
+                            sd
+                        </div>
+                        <div id="item2" class="item">
+                            <div class="side-piece-mission"></div>
+                        </div>
+                        <div id="item3" class="item">
+                            <div class="side-piece-mission"></div>
+                        </div>
+                        <div id="item4" class="item">
+                            <div class="side-piece-mission"></div>
+                        </div>
+                        <div id="item5" class="item">
+                            <div class="side-piece-mission"></div>
+                        </div>
+                        <div id="item6" class="item">
+                            <div class="side-piece-mission"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="header">
-                <div id="fitted-wrapper">
-                    <div id="top-half">
-                        <img src="images/search.png" alt="" id="search-icon">
-                        <input type="text" placeholder="Search" id="search-bar">
-                        <div id="profile">
-                            <img src="images/bell.png" alt="" id="bell">
-                            <img src="images/naruto.jpg" alt="" id="naruto-prf">
-                            <div style="font-weight: bold; font-size:x-large;">Naruto</div>
-                        </div>
-                    </div>
-                    <div id="bottom-half">
-                        <img src="images/naruto.jpg" id="profile-icon">
-                        <div id="greeting">
-                            <p class="text">Hi there,</p>
-                            <p id="name">Naruto Uzumaki</p>
-                        </div>
-                        <div id="actions">
-                            <button>New</button>
-                            <button>Upload</button>
-                            <button>Share</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </body>
-        </html>
+        </div>
+    </body>
+</html>
