@@ -139,7 +139,7 @@ button {
 }
 #project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 }
 .item {
@@ -187,4 +187,12 @@ button {
     font-size: 50px;
     align-self: center;
     margin: auto;
+}
+.not-mission {
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+    background-color: white;
 }
